@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import time
 
-df = pd.read_csv('bank.csv')
+df = pd.read_csv('./bank.csv')
 st.set_page_config(page_title="Real Time Scene Dashboard", page_icon="✅", layout="wide")
 
 #Dasboard Title
