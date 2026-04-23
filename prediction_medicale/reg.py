@@ -41,13 +41,13 @@ with col5:
     smoker = st.selectbox("Fumeur", ["Oui", "Non"])
 
 with col6:
-    region = st.selectbox("Region", ["Sud-Ouest", "Sud-Est", "Nord-Ouest", "Nord-Est"])
+    region = st.selectbox("Region", ["Nord-Est", "Nord-Ouest", "Sud-Est", "Sud-Ouest"])
 
 #eNCODAGE
 
 sex_encoded = 1 if sex == 'male' else 0
 smoker_encoded = 1 if smoker == "yes" else 0
-region_dict = {"southwest": 0.24308153, "southeast":0.27225131, "northwest":0.24233358, "northeast":0.27225131}
+region_dict = {"Nord-Est":0.24308153 , "Nord-Ouest":0.24442709 , "Sud-Est":0.24677265 , "Sud-Ouest":0.26569973}
 region_encoded = region_dict[region]
 
 
