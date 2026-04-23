@@ -27,7 +27,7 @@ with col1:
     age = st.slider("'Age", 18, 100, 30)
 
 with col2:
-    sex = st.selectbox("Sexe", ["male", "female"])
+    sex = st.selectbox("Sexe", ["Masculin", "Feminin"])
 
 col3,col4 = st.columns(2)
 with col3:
@@ -38,10 +38,10 @@ with col4:
 
 col5,col6 = st.columns(2)
 with col5:
-    smoker = st.selectbox("Fumeur", ["yes", "no"])
+    smoker = st.selectbox("Fumeur", ["Oui", "Non"])
 
 with col6:
-    region = st.selectbox("Region", ["southwest", "southeast", "northwest", "northeast"])
+    region = st.selectbox("Region", ["Sud-Ouest", "Sud-Est", "Nord-Ouest", "Nord-Est"])
 
 #eNCODAGE
 
