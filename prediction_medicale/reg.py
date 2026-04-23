@@ -24,14 +24,14 @@ with st.spinner('Chargement du modèle...'):
 #Entrees utilisateur
 col1,col2= st.columns(2)
 with col1:
-    age = st.slider("'Age", 18, 100, 30)
+    age = st.slider("Age", 18, 100, 30)
 
 with col2:
     sex = st.selectbox("Sexe", ["Masculin", "Feminin"])
 
 col3,col4 = st.columns(2)
 with col3:
-    bmi = st.number_input('BMI(Indice de masse corporelle)',10,50,25)
+    bmi = st.number_input("BMI(Indice de masse corporelle)", 10.0, 50.0, 25.0)
 
 with col4:
     sex = st.slider("Nombre d'enfants à charge", 0, 5, 1)
