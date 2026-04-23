@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import time
 import pickle
 #chargement
-with open('./prediction/reg.pkl','rb') as file:
+with open('./prediction_medicale/reg.pkl','rb') as file:
     model = pickle.load(file)
 
 
