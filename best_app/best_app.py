@@ -22,7 +22,7 @@ def main():
     if choice == 'Home':
         left,middle,right = st.columns((2,3,2))
         with middle:
-            st.image('téléchargement.jpeg',width=300)
+            st.image('./best_app/téléchargement.jpeg',width=300)
         st.write("This is an app that will analyse diabetes Datas with some python tools that can optimize decisions")
         st.subheader('Diabetis Informations')
         st.write("In Cameroon, the prevalence of diabetes in adults in urban areas is currently estimated at 6 – 8%, with as much as 80% of people living with diabetes who are currently undiagnosed in the population. Further, according to data from Cameroon in 2002, only about a quarter of people with known diabetes actually had adequate control of their blood glucose levels. The burden of diabetes in Cameroon is not only high but is also rising rapidly. Data in Cameroonian adults based on three cross-sectional surveys over a 10-year period (1994–2004) showed an almost 10-fold increase in diabetes prevalence.")
