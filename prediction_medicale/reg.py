@@ -59,7 +59,7 @@ input_data = [[age, sex_encoded, bmi, sex, smoker_encoded, region_encoded]]
 #prediction
 if st.button('Prediction des charges medicales'):
     with st.spinner("Calcul en cours ....."):
-        prediction = model.predict(input_data)
+        prediction = model.predict(input_data)[0]
         time.sleep(1)
     st.success("Prediction terminée")
     st.markdown(f"#### chares medicales Estimees:  **${prediction:,.2f}**")
