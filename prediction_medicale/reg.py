@@ -54,7 +54,7 @@ region_encoded = region_dict[region]
 
 
 #Preparation des données
-input_data = [[age, sex_encoded, bmi, children, smoker_encoded, region_encoded]]
+input_data = [[age, sex_encoded, bmi, smoker_encoded, region_encoded]]
 
 #prediction
 if st.button('Prediction des charges medicales'):
