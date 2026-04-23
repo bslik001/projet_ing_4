@@ -67,7 +67,7 @@ def main():
                 st.pyplot(fig)
 
             with tab3:
-                model = pickle.load(open('model_dump.pkl', 'rb'))
+                model = pickle.load(open('./best_app/model_dump.pkl', 'rb'))
                 #df.drop(['Outcome'],axis=1)
                 prediction = model.predict(df)
                 st.subheader('prediction')
